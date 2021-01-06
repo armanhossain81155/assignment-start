@@ -17,16 +17,11 @@ header{
 
 }
 
-.orange-highlight{
-    color:orange;
+.red-highlight{
+    color:rgb(248, 0, 21);
 
 }
-h1{
-    font-size: 50px;
-    margin-top: 0%;
-    color: rgb(116, 35, 35);
-    
-}
+
 p{
     color: dimgray;
 }
@@ -75,27 +70,7 @@ p{
     background-color: rgb(255, 255, 255);
     
 }
-.tough1{
-    text-align: center;
-    color: white;
-}
-.tough2{
-    text-decoration: none;
-    background-image: linear-gradient(45deg,green, yellow);
-    padding: 8px 30px;
-    border-radius: 25px;
-    color: white;
-    font-weight: 700;
-    font-size: 25px;
-    width: 100%;
 
-
-}
-.tough-image{
-    background-image: url(shapes/lower.png);
-    padding: 30% 40%;
-   background-repeat: no-repeat;
-}
 .back-img{
     background-color: rgb(241, 239, 239);
     border-radius: 10px;
@@ -106,16 +81,6 @@ section{
 
 }
 
-footer{
-    text-align: center;
-
-}
-footer img{
-    width: 3%;
-}
-h5{
-    color: slategrey;
-}
 .work-inqu{
     background-image: url("shapes/lower.png");
     background-repeat: no-repeat;
@@ -134,7 +99,7 @@ h5{
 }
 h1{
     font-weight: 700;
-    color: rgb(243, 239, 239);
+    color: orange;
     font-size: 40px;
 }
 .button{
@@ -151,4 +116,14 @@ h1{
     padding: 14px 16px;
     background-image: linear-gradient(45deg,green, yellow);
     border-radius: 10px;
+}
+footer{
+    text-align: center;
+
+}
+footer img{
+    width: 3%;
+}
+h5{
+    color: slategrey;
 }
