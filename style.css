@@ -7,11 +7,12 @@ body{
 header{
     text-align: right;
     padding-bottom: 3%;
+    margin: 0%;
 }
 .nav-button{
     text-decoration: none;
     padding-left: 2%;
-    color: black;
+    color: burlywood ;
     font-weight: 700;
 
 }
@@ -46,7 +47,7 @@ p{
         font-size: 25px;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 #for-centa{
     text-align: center;
@@ -64,17 +65,90 @@ p{
 
 #upper-section{
     width: 1400px;
-    padding-bottom: 500px;
+    padding-bottom: 350px;
 }
 
+.single-item{
+    box-shadow: 7px 7px 25px gray;
+    border-radius: 15px;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
     
+}
+.tough1{
+    text-align: center;
+    color: white;
+}
+.tough2{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,green, yellow);
+    padding: 8px 30px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    width: 100%;
 
 
-
+}
+.tough-image{
+    background-image: url(shapes/lower.png);
+    padding: 30% 40%;
+   background-repeat: no-repeat;
+}
+.back-img{
+    background-color: rgb(241, 239, 239);
+    border-radius: 10px;
+}
 section{
     height: 500px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
+
 }
 
+footer{
+    text-align: center;
+
+}
+footer img{
+    width: 3%;
+}
+h5{
+    color: slategrey;
+}
+.work-inqu{
+    background-image: url("shapes/lower.png");
+    background-repeat: no-repeat;
+    background-size: 500px 150px;
+    background-position: center;
+    margin-top: 20%;
+    position: relative;
 
 
+}
+.text{
+    position: absolute;
+      bottom: 230px;
+      left: 450px;
+
+}
+h1{
+    font-weight: 700;
+    color: rgb(243, 239, 239);
+    font-size: 40px;
+}
+.button{
+    position: absolute;
+    bottom: 280px;
+    left: 750px;
+    
+
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 14px 16px;
+    background-image: linear-gradient(45deg,green, yellow);
+    border-radius: 10px;
+}
